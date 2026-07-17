@@ -6,19 +6,9 @@
   title="fx"
   src="https://wise.com/gb/currency-converter/fx-widget/converter?sourceCurrency=JPY&targetCurrency=USD&amount=1000"
   height=490
-  width=100%
+  width=340
   frameBorder="0"
   allowtransparency="true"
-></iframe>
-  <script>
-    const frames = document.querySelectorAll('iframe');
-    const widgetFrame = frames[frames.length - 1];
-    window.addEventListener('message', message => {
-      if (message.source !== widgetFrame.contentWindow) {
-      return;
-      }
-      widgetFrame.setAttribute('height', message.data.height);
-    });
-  </script><!-- Attention! Do not modify this code; END CODE -->
+></iframe><!-- Attention! Do not modify this code; END CODE -->
 </body>
 </html>
